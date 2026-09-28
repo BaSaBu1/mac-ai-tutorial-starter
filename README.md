@@ -6,7 +6,26 @@ You don't need an idea yet. Claude will help you find one.
 
 ## My project
 
-Nothing yet! Claude will help you describe your project here.
+**Zoom Out** is a small photo-guessing game for your phone.
+
+Each photo starts extremely zoomed in. Type what you think it is.
+Every wrong guess zooms the photo out a little. You have 5 tries per photo.
+Your score depends on how few zoom-outs you needed and how fast you were.
+A game is 5 photos.
+
+Built with Expo (React Native + TypeScript) and a clean, minimalist design.
+
+**Run it:**
+
+1. Install **Expo Go** on your phone (Play Store or App Store).
+2. In a terminal:
+   ```
+   cd zoom-out
+   npm install
+   npx expo start
+   ```
+3. Scan the QR code with Expo Go.
+   If your wifi blocks it, try `npx expo start --tunnel`.
 
 ## Before you start
 
