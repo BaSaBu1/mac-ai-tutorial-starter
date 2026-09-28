@@ -12,25 +12,20 @@ Nothing yet! Claude will help you describe your project here.
 
 You need:
 
-- A GitHub account.
-- [VS Code](https://code.visualstudio.com/) and [git](https://git-scm.com/downloads) on your laptop.
 - Access to Claude. Accept the email invite from us before you start.
+- A GitHub account.
+- [VS Code](https://code.visualstudio.com/) and [GitHub Desktop]([https://git-scm.com/downloads](https://desktop.github.com/download/) on your laptop.
 
 ## Set up
 
 1. Fork this repo. Click **Fork** at the top right of this page.
-2. Open VS Code. Then open a terminal: **Terminal > New Terminal**.
-3. Install Claude Code. You only do this once.
+2. Clone this repo in GitHub desktop.
+3. Open the repo in VS Code.
+4. TOpen a terminal: **Terminal > New Terminal**.
+5. Install Claude Code. You only do this once.
    - Mac or Linux: `curl -fsSL https://claude.ai/install.sh | bash`
    - Windows: `irm https://claude.ai/install.ps1 | iex`
-4. Clone your fork, not this repo. Put your GitHub username in the link:
-
-   ```
-   git clone https://github.com/YOUR-USERNAME/mac-ai-tutorial-starter.git
-   ```
-
-5. Open the folder: **File > Open Folder**. Pick `mac-ai-tutorial-starter` in your home folder.
-6. Open a new terminal. Type `claude` and press Enter. Log in when it asks.
+6. Start up claude: `claude`
 
 Stuck? Ask an instructor, or see the [setup guide](https://code.claude.com/docs/en/setup).
 
